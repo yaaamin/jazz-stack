@@ -1,8 +1,8 @@
 {
-  "name": "sample-haqs",
+  "name": "remix-jazz",
   "private": true,
-  "description": "",
-  "license": "",
+  "description": "Learn more about [Remix Stacks](https://remix.run/stacks).",
+  "license": "MIT",
   "sideEffects": false,
   "scripts": {
     "build": "run-s build:*",
@@ -67,5 +67,19 @@
   },
   "prisma": {
     "seed": "node --require esbuild-register prisma/seed.ts"
-  }
+  },
+  "version": "1.0.0",
+  "main": ".eslintrc.js",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yaaamin/jazz-stack.git"
+  },
+  "author": "Abdulla Y.",
+  "bugs": {
+    "url": "https://github.com/yaaamin/jazz-stack/issues"
+  },
+  "homepage": "https://github.com/yaaamin/jazz-stack#readme"
 }
